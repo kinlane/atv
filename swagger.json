@@ -59,13 +59,11 @@
           "properties": {
             "type": {
               "type": "string",
-              "title": "The Type Schema",
-              "description": "An explanation about the purpose of this instance."
+              "description": "The Type Schema"
             },
             "params": {
               "type": "object",
-              "title": "The Type Schema",
-              "description": "An explanation about the purpose of this instance."
+              "description": "The Type Schema"
             }
           }
         },
@@ -80,96 +78,57 @@
           }
         },
         "data": {
-          "$id": "/properties/data",
           "type": "array",
           "items": {
             "type": "object",
             "properties": {
               "address": {
-                "$id": "/properties/data/items/properties/address",
                 "type": "string",
-                "title": "The Address Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "1111 Polaris Parkway"
-                ]
+                "description": "The Address Schema",
+                "default": ""
               },
               "city": {
                 "type": "string",
-                "title": "The City Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "Columbus"
-                ]
+                "description": "The City Schema",
+                "default": ""
               },
               "cbsa_metro_name": {
                 "type": "string",
-                "title": "The Cbsa_metro_name Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "Columbus, OH"
-                ]
+                "description": "The Cbsa_metro_name Schema",
+                "default": ""
               },
               "name": {
                 "type": "string",
-                "title": "The Name Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "JPMorgan Chase Bank, National Association"
-                ]
+                "description": "The Name Schema",
+                "default": ""
               },
               "namehcr": {
                 "type": "string",
-                "title": "The Namehcr Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "Jpmorgan Chase & Co."
-                ]
+                "description": "The Namehcr Schema",
+                "default": ""
               },
               "score": {
                 "type": "integer",
-                "title": "The Score Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": 0,
-                "examples": [
-                  1
-                ]
+                "description": "The Score Schema",
+                "default": 0
               },
               "id": {
                 "type": "string",
-                "title": "The Id Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "628"
-                ]
+                "description": "The Id Schema",
+                "default": ""
               },
               "type": {
                 "type": "string",
-                "title": "The Type Schema",
-                "description": "An explanation about the purpose of this instance.",
-                "default": "",
-                "examples": [
-                  "banks"
-                ]
+                "description": "The Type Schema",
+                "default": ""
               },
               "links": {
                 "type": "object",
                 "properties": {
                   "self": {
-                    "$id": "/properties/data/items/properties/links/properties/self",
                     "type": "string",
-                    "title": "The Self Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                      "http://localhost:8000/api/v1/banks/111"
-                    ]
+                    "description": "The Self Schema",
+                    "default": ""
                   }
                 }
               }
@@ -182,29 +141,20 @@
       "type": "object",
       "properties": {
         "meta": {
-          "$id": "/properties/meta",
           "type": "object",
           "properties": {
             "type": {
               "type": "string",
-              "title": "The Type Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "banks"
-              ]
+              "description": "The Type Schema",
+              "default": ""
             },
             "params": {
               "type": "object",
               "properties": {
                 "id": {
                   "type": "string",
-                  "title": "The Id Schema",
                   "description": "An explanation about the purpose of this instance.",
-                  "default": "",
-                  "examples": [
-                    "3510"
-                  ]
+                  "default": ""
                 }
               }
             }
@@ -215,12 +165,8 @@
           "properties": {
             "self": {
               "type": "string",
-              "title": "The Self Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "http://localhost:8000/api/v1/banks/3510"
-              ]
+              "description": "The Self Schema",
+              "default": ""
             }
           }
         },
@@ -228,797 +174,444 @@
           "type": "object",
           "properties": {
             "cfpbflag": {
-              "$id": "/properties/data/properties/cfpbflag",
               "type": "integer",
-              "title": "The Cfpbflag Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Cfpbflag Schema",
+              "default": 0
             },
             "rssdhcr": {
               "type": "integer",
-              "title": "The Rssdhcr Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1073757
-              ]
+              "description": "The Rssdhcr Schema",
+              "default": 0
             },
             "specgrp": {
               "type": "integer",
-              "title": "The Specgrp Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                9
-              ]
+              "description": "The Specgrp Schema",
+              "default": 0
             },
             "charter": {
               "type": "integer",
-              "title": "The Charter Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                13044
-              ]
+              "description": "The Charter Schema",
+              "default": 0
             },
             "county": {
               "type": "string",
-              "title": "The County Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Mecklenburg"
-              ]
+              "description": "The County Schema",
+              "default": ""
             },
             "cfpbenddte": {
               "type": "string",
-              "title": "The Cfpbenddte Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "31-Dec-99"
-              ]
+              "description": "The Cfpbenddte Schema",
+              "default": ""
             },
             "cert": {
               "type": "integer",
-              "title": "The Cert Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                3510
-              ]
+              "description": "The Cert Schema",
+              "default": 0
             },
             "fdicdbs": {
               "type": "integer",
-              "title": "The Fdicdbs Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                5
-              ]
+              "description": "The Fdicdbs Schema",
+              "default": 0
             },
             "dep": {
               "type": "string",
-              "title": "The Dep Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "1,373,137,000"
-              ]
+              "description": "The Dep Schema",
+              "default": ""
             },
             "stnum": {
               "type": "integer",
-              "title": "The Stnum Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                37
-              ]
+              "description": "The Stnum Schema",
+              "default": 0
             },
             "te10n528": {
               "type": "null",
-              "title": "The Te10n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Te10n528 Schema",
+              "default": null
             },
             "cbsa_metro": {
               "type": "integer",
-              "title": "The Cbsa_metro Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                16740
-              ]
+              "description": "The Cbsa_metro Schema",
+              "default": 0
             },
             "procdate": {
               "type": "string",
-              "title": "The Procdate Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "2/17/16"
-              ]
+              "description": "The Procdate Schema",
+              "default": ""
             },
             "inactive": {
               "type": "integer",
-              "title": "The Inactive Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Inactive Schema",
+              "default": 0
             },
             "insagnt2": {
               "type": "null",
-              "title": "The Insagnt2 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Insagnt2 Schema",
+              "default": null
             },
             "cmsa": {
               "type": "null",
-              "title": "The Cmsa Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Cmsa Schema",
+              "default": null
             },
             "te04n529": {
               "type": "string",
-              "title": "The Te04n529 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "BofAML"
-              ]
+              "description": "The Te04n529 Schema",
+              "default": ""
             },
             "te04n528": {
               "type": "string",
-              "title": "The Te04n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "www.ustrust.com"
-              ]
+              "description": "The Te04n528 Schema",
+              "default": ""
             },
             "roaq": {
               "type": "number",
-              "title": "The Roaq Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1.25
-              ]
+              "description": "The Roaq Schema",
+              "default": 0
             },
             "insagnt1": {
               "type": "string",
-              "title": "The Insagnt1 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "DIF"
-              ]
+              "description": "The Insagnt1 Schema",
+              "default": ""
             },
             "zip": {
               "type": "integer",
-              "title": "The Zip Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                28202
-              ]
+              "description": "The Zip Schema",
+              "default": 0
             },
             "insbif": {
               "type": "integer",
-              "title": "The Insbif Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Insbif Schema",
+              "default": 0
             },
             "stchrtr": {
               "type": "integer",
-              "title": "The Stchrtr Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Stchrtr Schema",
+              "default": 0
             },
             "active": {
               "type": "integer",
-              "title": "The Active Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Active Schema",
+              "default": 0
             },
             "stalp": {
               "type": "string",
-              "title": "The Stalp Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "NC"
-              ]
+              "description": "The Stalp Schema",
+              "default": ""
             },
             "regagent2": {
               "type": "null",
-              "title": "The Regagent2 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Regagent2 Schema",
+              "default": null
             },
             "te06n528": {
               "type": "null",
-              "title": "The Te06n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Te06n528 Schema",
+              "default": null
             },
             "te06n529": {
               "type": "string",
-              "title": "The Te06n529 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Merrill Lynch"
-              ]
+              "description": "The Te06n529 Schema",
+              "default": ""
             },
             "insdate": {
               "type": "string",
-              "title": "The Insdate Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "1/1/34"
-              ]
+              "description": "The Insdate Schema",
+              "default": ""
             },
             "fdicsupv": {
               "type": "string",
-              "title": "The Fdicsupv Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Washington"
-              ]
+              "description": "The Fdicsupv Schema",
+              "default": ""
             },
             "instcrcd": {
               "type": "integer",
-              "title": "The Instcrcd Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Instcrcd Schema",
+              "default": 0
             },
             "offdom": {
               "type": "integer",
-              "title": "The Offdom Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                4636
-              ]
+              "description": "The Offdom Schema",
+              "default": 0
             },
             "city": {
               "type": "string",
-              "title": "The City Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Charlotte"
-              ]
+              "description": "The City Schema",
+              "default": ""
             },
             "qbprcoml": {
               "type": "integer",
-              "title": "The Qbprcoml Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                2
-              ]
+              "description": "The Qbprcoml Schema",
+              "default": 0
             },
             "te07n528": {
               "type": "null",
-              "title": "The Te07n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Te07n528 Schema",
+              "default": null
             },
             "otsregnm": {
               "type": "string",
-              "title": "The Otsregnm Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Southeast"
-              ]
+              "description": "The Otsregnm Schema",
+              "default": ""
             },
             "occdist": {
               "type": "integer",
-              "title": "The Occdist Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Occdist Schema",
+              "default": 0
             },
             "fedchrtr": {
               "type": "integer",
-              "title": "The Fedchrtr Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Fedchrtr Schema",
+              "default": 0
             },
             "repdte": {
               "type": "string",
-              "title": "The Repdte Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "9/30/17"
-              ]
+              "description": "The Repdte Schema",
+              "default": ""
             },
             "certcons": {
               "type": "integer",
-              "title": "The Certcons Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Certcons Schema",
+              "default": 0
             },
             "te09n528": {
               "type": "null",
-              "title": "The Te09n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Te09n528 Schema",
+              "default": null
             },
             "netinc": {
               "type": "string",
-              "title": "The Netinc Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "16,366,000"
-              ]
+              "description": "The Netinc Schema",
+              "default": ""
             },
             "denovo": {
               "type": "integer",
-              "title": "The Denovo Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Denovo Schema",
+              "default": 0
             },
             "cityhcr": {
               "type": "string",
-              "title": "The Cityhcr Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Charlotte"
-              ]
+              "description": "The Cityhcr Schema",
+              "default": ""
             },
             "inscoml": {
               "type": "integer",
-              "title": "The Inscoml Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Inscoml Schema",
+              "default": 0
             },
             "cb": {
               "type": "integer",
-              "title": "The Cb Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Cb Schema",
+              "default": 0
             },
             "subchaps": {
               "type": "integer",
-              "title": "The Subchaps Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Subchaps Schema",
+              "default": 0
             },
             "roaptx": {
               "type": "number",
-              "title": "The Roaptx Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1.940000057220459
-              ]
+              "description": "The Roaptx Schema",
+              "default": 0
             },
             "address": {
               "type": "string",
-              "title": "The Address Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "100 North Tryon St"
-              ]
+              "description": "The Address Schema",
+              "default": ""
             },
             "cbsa_micro_flg": {
               "type": "integer",
-              "title": "The Cbsa_micro_flg Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Cbsa_micro_flg Schema",
+              "default": 0
             },
             "iba": {
               "type": "integer",
-              "title": "The Iba Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Iba Schema",
+              "default": 0
             },
             "estymd": {
               "type": "string",
-              "title": "The Estymd Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "10/17/04"
-              ]
+              "description": "The Estymd Schema",
+              "default": ""
             },
             "fed_rssd": {
               "type": "integer",
-              "title": "The Fed_rssd Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                480228
-              ]
+              "description": "The Fed_rssd Schema",
+              "default": 0
             },
             "uninum": {
               "type": "integer",
-              "title": "The Uninum Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                2238
-              ]
+              "description": "The Uninum Schema",
+              "default": 0
             },
             "cbsa_div_no": {
               "type": "integer",
-              "title": "The Cbsa_div_no Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Cbsa_div_no Schema",
+              "default": 0
             },
             "inssaif": {
               "type": "integer",
-              "title": "The Inssaif Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Inssaif Schema",
+              "default": 0
             },
             "ultcert": {
               "type": "integer",
-              "title": "The Ultcert Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                3510
-              ]
+              "description": "The Ultcert Schema",
+              "default": 0
             },
             "te02n529": {
               "type": "string",
-              "title": "The Te02n529 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Bank of America Merrill Lynch"
-              ]
+              "description": "The Te02n529 Schema",
+              "default": ""
             },
             "te02n528": {
               "type": "string",
-              "title": "The Te02n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "www.merrilledge.com"
-              ]
+              "description": "The Te02n528 Schema",
+              "default": ""
             },
             "msa": {
               "type": "string",
-              "title": "The Msa Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Charlotte-Gastonia-Rock Hill, NC-SC"
-              ]
+              "description": "The Msa Schema",
+              "default": ""
             },
             "asset": {
               "type": "string",
-              "title": "The Asset Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "1,725,215,000"
-              ]
+              "description": "The Asset Schema",
+              "default": ""
             },
             "form31": {
               "type": "integer",
-              "title": "The Form31 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Form31 Schema",
+              "default": 0
             },
             "fldoff": {
               "type": "string",
-              "title": "The Fldoff Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Charlotte"
-              ]
+              "description": "The Fldoff Schema",
+              "default": ""
             },
             "changec3": {
               "type": "integer",
-              "title": "The Changec3 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Changec3 Schema",
+              "default": 0
             },
             "changec4": {
               "type": "integer",
-              "title": "The Changec4 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Changec4 Schema",
+              "default": 0
             },
             "changec5": {
               "type": "integer",
-              "title": "The Changec5 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Changec5 Schema",
+              "default": 0
             },
             "oakar": {
               "type": "integer",
-              "title": "The Oakar Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Oakar Schema",
+              "default": 0
             },
             "fed": {
               "type": "integer",
-              "title": "The Fed Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                5
-              ]
+              "description": "The Fed Schema",
+              "default": 0
             },
             "hctmult": {
               "type": "integer",
-              "title": "The Hctmult Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Hctmult Schema",
+              "default": 0
             },
             "te03n529": {
               "type": "string",
-              "title": "The Te03n529 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "BofA"
-              ]
+              "description": "The Te03n529 Schema",
+              "default": ""
             },
             "te03n528": {
               "type": "string",
-              "title": "The Te03n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "www.mymerrill.com"
-              ]
+              "description": "The Te03n528 Schema",
+              "default": ""
             },
             "msa_no": {
               "type": "integer",
-              "title": "The Msa_no Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1520
-              ]
+              "description": "The Msa_no Schema",
+              "default": 0
             },
             "offices": {
               "type": "integer",
-              "title": "The Offices Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                4595
-              ]
+              "description": "The Offices Schema",
+              "default": 0
             },
             "bkclass": {
               "type": "string",
-              "title": "The Bkclass Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "N"
-              ]
+              "description": "The Bkclass Schema",
+              "default": ""
             },
             "sasser": {
               "type": "integer",
-              "title": "The Sasser Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Sasser Schema",
+              "default": 0
             },
             "te01n528": {
               "type": "string",
-              "title": "The Te01n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "www.ml.com"
-              ]
+              "description": "The Te01n528 Schema",
+              "default": ""
             },
             "stalphcr": {
               "type": "string",
-              "title": "The Stalphcr Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "NC"
-              ]
+              "description": "The Stalphcr Schema",
+              "default": ""
             },
             "cbsa_no": {
               "type": "integer",
-              "title": "The Cbsa_no Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                16740
-              ]
+              "description": "The Cbsa_no Schema",
+              "default": 0
             },
             "roeq": {
               "type": "number",
-              "title": "The Roeq Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                10.300000190734863
-              ]
+              "description": "The Roeq Schema",
+              "default": 0
             },
             "instag": {
               "type": "integer",
-              "title": "The Instag Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Instag Schema",
+              "default": 0
             },
             "otsdist": {
               "type": "integer",
-              "title": "The Otsdist Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                2
-              ]
+              "description": "The Otsdist Schema",
+              "default": 0
             },
             "te05n528": {
               "type": "null",
-              "title": "The Te05n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Te05n528 Schema",
+              "default": null
             },
             "cmsa_no": {
               "type": "integer",
-              "title": "The Cmsa_no Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Cmsa_no Schema",
+              "default": 0
             },
             "insdif": {
               "type": "integer",
-              "title": "The Insdif Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Insdif Schema",
+              "default": 0
             },
             "te05n529": {
               "type": "string",
-              "title": "The Te05n529 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Merrill"
-              ]
+              "description": "The Te05n529 Schema",
+              "default": ""
             },
             "cbsa_metro_flg": {
               "type": "integer",
-              "title": "The Cbsa_metro_flg Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Cbsa_metro_flg Schema",
+              "default": 0
             },
             "netincq": {
               "type": "string",
-              "title": "The Netincq Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "5,357,000"
-              ]
+              "description": "The Netincq Schema",
+              "default": ""
             },
             "eq": {
               "type": "string",
-              "title": "The Eq Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "209,031,000"
-              ]
+              "description": "The Eq Schema",
+              "default": ""
             },
             "branches": {
               "type": "array",
@@ -1027,447 +620,250 @@
                 "properties": {
                   "offnum": {
                     "type": "integer",
-                    "title": "The Offnum Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      1361
-                    ]
+                    "description": "The Offnum Schema",
+                    "default": 0
                   },
                   "name": {
                     "type": "string",
-                    "title": "The Name Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                      "Bank Of America, National Association"
-                    ]
+                    "description": "The Name Schema",
+                    "default": ""
                   },
                   "offname": {
                     "type": "string",
-                    "title": "The Offname Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                      "Alexandria Branch (Frgn)"
-                    ]
+                    "description": "The Offname Schema",
+                    "default": ""
                   },
                   "type": {
                     "type": "string",
-                    "title": "The Type Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                      "branches"
-                    ]
+                    "description": "The Type Schema",
+                    "default": ""
                   }
                 }
               }
             },
             "mutual": {
               "type": "integer",
-              "title": "The Mutual Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Mutual Schema",
+              "default": 0
             },
             "webaddr": {
               "type": "string",
-              "title": "The Webaddr Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "www.bankofamerica.com"
-              ]
+              "description": "The Webaddr Schema",
+              "default": ""
             },
             "name": {
               "type": "string",
-              "title": "The Name Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Bank of America, National Association"
-              ]
+              "description": "The Name Schema",
+              "default": ""
             },
             "regagnt": {
               "type": "string",
-              "title": "The Regagnt Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "OCC"
-              ]
+              "description": "The Regagnt Schema",
+              "default": ""
             },
             "roaptxq": {
               "type": "number",
-              "title": "The Roaptxq Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1.8899999856948853
-              ]
+              "description": "The Roaptxq Schema",
+              "default": 0
             },
             "specgrpn": {
               "type": "string",
-              "title": "The Specgrpn Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "All Other Specialization  > 1 Billion"
-              ]
+              "description": "The Specgrpn Schema",
+              "default": ""
             },
             "depdom": {
               "type": "string",
-              "title": "The Depdom Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "1,297,138,000"
-              ]
+              "description": "The Depdom Schema",
+              "default": ""
             },
             "effdate": {
               "type": "string",
-              "title": "The Effdate Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "1/1/16"
-              ]
+              "description": "The Effdate Schema",
+              "default": ""
             },
             "endefymd": {
               "type": "string",
-              "title": "The Endefymd Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "12/31/99"
-              ]
+              "description": "The Endefymd Schema",
+              "default": ""
             },
             "changec1": {
               "type": "integer",
-              "title": "The Changec1 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Changec1 Schema",
+              "default": 0
             },
             "csa_no": {
               "type": "integer",
-              "title": "The Csa_no Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                172
-              ]
+              "description": "The Csa_no Schema",
+              "default": 0
             },
             "stname": {
               "type": "string",
-              "title": "The Stname Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "North Carolina"
-              ]
+              "description": "The Stname Schema",
+              "default": ""
             },
             "changec2": {
               "type": "integer",
-              "title": "The Changec2 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Changec2 Schema",
+              "default": 0
             },
             "trust": {
               "type": "integer",
-              "title": "The Trust Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Trust Schema",
+              "default": 0
             },
             "stmult": {
               "type": "integer",
-              "title": "The Stmult Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Stmult Schema",
+              "default": 0
             },
             "tract": {
               "type": "integer",
-              "title": "The Tract Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Tract Schema",
+              "default": 0
             },
             "cbsa": {
               "type": "string",
-              "title": "The Cbsa Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Charlotte-Concord-Gastonia, NC-SC"
-              ]
+              "description": "The Cbsa Schema",
+              "default": ""
             },
             "roa": {
               "type": "number",
-              "title": "The Roa Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1.2799999713897705
-              ]
+              "description": "The Roa Schema",
+              "default": 0
             },
             "clcode": {
               "type": "integer",
-              "title": "The Clcode Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                3
-              ]
+              "description": "The Clcode Schema",
+              "default": 0
             },
             "inssave": {
               "type": "integer",
-              "title": "The Inssave Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Inssave Schema",
+              "default": 0
             },
             "newcert": {
               "type": "integer",
-              "title": "The Newcert Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Newcert Schema",
+              "default": 0
             },
             "te08n528": {
               "type": "null",
-              "title": "The Te08n528 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Te08n528 Schema",
+              "default": null
             },
             "cbsa_div": {
               "type": "null",
-              "title": "The Cbsa_div Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": null,
-              "examples": [
-                null
-              ]
+              "description": "The Cbsa_div Schema",
+              "default": null
             },
             "roe": {
               "type": "number",
-              "title": "The Roe Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                10.550000190734863
-              ]
+              "description": "The Roe Schema",
+              "default": 0
             },
             "docket": {
               "type": "integer",
-              "title": "The Docket Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Docket Schema",
+              "default": 0
             },
             "offfor": {
               "type": "integer",
-              "title": "The Offfor Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                229
-              ]
+              "description": "The Offfor Schema",
+              "default": 0
             },
             "offoa": {
               "type": "integer",
-              "title": "The Offoa Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Offoa Schema",
+              "default": 0
             },
             "fdicregn": {
               "type": "string",
-              "title": "The Fdicregn Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Atlanta"
-              ]
+              "description": "The Fdicregn Schema",
+              "default": ""
             },
             "law_sasser_flg": {
               "type": "string",
-              "title": "The Law_sasser_flg Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "N"
-              ]
+              "description": "The Law_sasser_flg Schema",
+              "default": ""
             },
             "namehcr": {
               "type": "string",
-              "title": "The Namehcr Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Bank Of America Corporation"
-              ]
+              "description": "The Namehcr Schema",
+              "default": ""
             },
             "rundate": {
               "type": "string",
-              "title": "The Rundate Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "2/1/18"
-              ]
+              "description": "The Rundate Schema",
+              "default": ""
             },
             "csa_flg": {
               "type": "integer",
-              "title": "The Csa_flg Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Csa_flg Schema"
             },
             "cfpbeffdte": {
               "type": "string",
-              "title": "The Cfpbeffdte Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "21-Jul-11"
-              ]
+              "description": "The Cfpbeffdte Schema",
+              "default": ""
             },
             "stcnty": {
               "type": "integer",
-              "title": "The Stcnty Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                37119
-              ]
+              "description": "The Stcnty Schema",
+              "default": 0
             },
             "insfdic": {
               "type": "integer",
-              "title": "The Insfdic Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                1
-              ]
+              "description": "The Insfdic Schema",
+              "default": 0
             },
             "cbsa_div_flg": {
               "type": "integer",
-              "title": "The Cbsa_div_flg Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Cbsa_div_flg Schema",
+              "default": 0
             },
             "chrtagnt": {
               "type": "string",
-              "title": "The Chrtagnt Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "OCC"
-              ]
+              "description": "The Chrtagnt Schema",
+              "default": ""
             },
             "te01n529": {
               "type": "string",
-              "title": "The Te01n529 Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Bank of America"
-              ]
+              "description": "The Te01n529 Schema",
+              "default": ""
             },
             "conserve": {
               "type": "string",
-              "title": "The Conserve Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "N"
-              ]
+              "description": "The Conserve Schema",
+              "default": ""
             },
             "parcert": {
               "type": "integer",
-              "title": "The Parcert Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                0
-              ]
+              "description": "The Parcert Schema",
+              "default": 0
             },
             "csa": {
               "type": "string",
-              "title": "The Csa Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Charlotte-Concord, NC-SC"
-              ]
+              "description": "The Csa Schema",
+              "default": ""
             },
             "dateupdt": {
               "type": "string",
-              "title": "The Dateupdt Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "2/17/16"
-              ]
+              "description": "The Dateupdt Schema",
+              "default": ""
             },
             "cbsa_metro_name": {
               "type": "string",
-              "title": "The Cbsa_metro_name Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "Charlotte-Concord-Gastonia, NC-SC"
-              ]
+              "description": "The Cbsa_metro_name Schema",
+              "default": ""
             },
             "suprv_fd": {
               "type": "integer",
-              "title": "The Suprv_fd Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": 0,
-              "examples": [
-                16
-              ]
+              "description": "The Suprv_fd Schema",
+              "default": 0
             },
             "risdate": {
               "type": "string",
-              "title": "The Risdate Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "9/30/17"
-              ]
+              "description": "The Risdate Schema",
+              "default": ""
             },
             "sdi_data": {
               "type": "array",
@@ -1476,114 +872,66 @@
                 "properties": {
                   "p9reres": {
                     "type": "integer",
-                    "title": "The P9reres Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      27278074
-                    ]
+                    "description": "The P9reres Schema",
+                    "default": 0
                   },
                   "lnremult": {
                     "type": "integer",
-                    "title": "The Lnremult Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      4840428
-                    ]
+                    "description": "The Lnremult Schema",
+                    "default": 0
                   },
                   "offdom": {
                     "type": "integer",
-                    "title": "The Offdom Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      5978
-                    ]
+                    "description": "The Offdom Schema",
+                    "default": 0
                   },
                   "lnrecnfm": {
                     "type": "integer",
-                    "title": "The Lnrecnfm Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      4061359
-                    ]
+                    "description": "The Lnrecnfm Schema",
+                    "default": 0
                   },
                   "reportdate": {
                     "type": "string",
-                    "title": "The Reportdate Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": "",
-                    "examples": [
-                      "20101231"
-                    ]
+                    "description": "The Reportdate Schema",
+                    "default": ""
                   },
                   "lnre": {
                     "type": "integer",
-                    "title": "The Lnre Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      451951526
-                    ]
+                    "description": "The Lnre Schema",
+                    "default": 0
                   },
                   "lnreres": {
                     "type": "integer",
-                    "title": "The Lnreres Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      372695523
-                    ]
+                    "description": "The Lnreres Schema",
+                    "default": 0
                   },
                   "cert": {
                     "type": "integer",
-                    "title": "The Cert Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      3510
-                    ]
+                    "description": "The Cert Schema",
+                    "default": 0
                   },
                   "asset": {
                     "type": "integer",
-                    "title": "The Asset Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      1482278257
-                    ]
+                    "description": "The Asset Schema",
+                    "default": 0
                   },
                   "p3reres": {
                     "type": "integer",
-                    "title": "The P3reres Schema",
-                    "description": "An explanation about the purpose of this instance.",
-                    "default": 0,
-                    "examples": [
-                      10524127
-                    ]
+                    "description": "The P3reres Schema",
+                    "default": 0
                   }
                 }
               }
             },
             "id": {
               "type": "string",
-              "title": "The Id Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "3510"
-              ]
+              "description": "The Id Schema",
+              "default": ""
             },
             "type": {
               "type": "string",
-              "title": "The Type Schema",
-              "description": "An explanation about the purpose of this instance.",
-              "default": "",
-              "examples": [
-                "banks"
-              ]
+              "description": "The Type Schema",
+              "default": ""
             }
           }
         }

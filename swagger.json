@@ -31,7 +31,8 @@
               "$ref": "#/definitions/banks"
             }
           }
-        }
+        },
+        "tags": ["Banks"]
       }
     },
     "/banks/:bank_id": {
@@ -46,7 +47,8 @@
               "$ref": "#/definitions/bank"
             }
           }
-        }
+        },
+        "tags": ["Banks"]
       }
     }
   },

@@ -1,0 +1,56 @@
+table {
+  border-spacing: 2px;
+  margin: 2em 0;
+}
+
+thead {
+  th {
+    font-weight: $font-bold;
+    color: $color-white
+  }
+
+  th,
+  td {
+    background-color: $color-blue-darkest;
+  }
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  background-color: $color-white;
+  border: 1px solid $color-gray;
+  font-weight: $font-normal;
+  padding: 5px;
+}
+
+.usa-table-borderless {
+  thead {
+    th {
+      background-color: transparent;
+      border-top: 0;
+    }
+  }
+
+  th,
+  td {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  th {
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}
+
+caption {
+  @include h5;
+  font-family: $font-serif;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}

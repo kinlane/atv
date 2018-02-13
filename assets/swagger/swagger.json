@@ -1,0 +1,174 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0.0",
+    "title" : "ATV1 Apps API"
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/kmelendez123/ATV1-api/1.0.0",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/" : {
+      "get" : {
+        "summary" : "Home page",
+        "description" : "Displays Home page information",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/message"
+            }
+          }
+        }
+      }
+    },
+    "/api" : {
+      "get" : {
+        "summary" : "API route",
+        "description" : "Displays API Information",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/message"
+            }
+          }
+        }
+      }
+    },
+    "/api/hello" : {
+      "get" : {
+        "summary" : "Example of Dataset",
+        "description" : "Dataset Information",
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/recordResult"
+            }
+          },
+          "404" : {
+            "description" : "Data not found"
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "message" : {
+      "type" : "object",
+      "properties" : {
+        "message" : {
+          "type" : "string"
+        }
+      },
+      "example" : {
+        "message" : "message"
+      }
+    },
+    "recordResult" : {
+      "type" : "object",
+      "properties" : {
+        "total" : {
+          "type" : "integer"
+        },
+        "max_score" : {
+          "type" : "integer"
+        },
+        "hits" : {
+          "$ref" : "#/definitions/hits"
+        }
+      },
+      "example" : {
+        "hits" : {
+          "_index" : "_index",
+          "_type" : "_type",
+          "_source" : {
+            "ST" : "ST",
+            "Acquiring Institution" : "Acquiring Institution",
+            "Closing Date" : "Closing Date",
+            "City" : "City",
+            "CERT" : 5,
+            "Bank Name" : "Bank Name",
+            "Updated Date" : "Updated Date"
+          },
+          "_score" : 1
+        },
+        "total" : 0,
+        "max_score" : 6
+      }
+    },
+    "hits" : {
+      "type" : "object",
+      "properties" : {
+        "_index" : {
+          "type" : "string"
+        },
+        "_type" : {
+          "type" : "string"
+        },
+        "_score" : {
+          "type" : "integer"
+        },
+        "_source" : {
+          "$ref" : "#/definitions/source"
+        }
+      },
+      "example" : {
+        "_index" : "_index",
+        "_type" : "_type",
+        "_source" : {
+          "ST" : "ST",
+          "Acquiring Institution" : "Acquiring Institution",
+          "Closing Date" : "Closing Date",
+          "City" : "City",
+          "CERT" : 5,
+          "Bank Name" : "Bank Name",
+          "Updated Date" : "Updated Date"
+        },
+        "_score" : 1
+      }
+    },
+    "source" : {
+      "type" : "object",
+      "properties" : {
+        "Bank Name" : {
+          "type" : "string"
+        },
+        "City" : {
+          "type" : "string",
+          "description" : "Bank City"
+        },
+        "ST" : {
+          "type" : "string",
+          "description" : "Bank State"
+        },
+        "CERT" : {
+          "type" : "integer",
+          "description" : "Bank CERT"
+        },
+        "Acquiring Institution" : {
+          "type" : "string"
+        },
+        "Closing Date" : {
+          "type" : "string"
+        },
+        "Updated Date" : {
+          "type" : "string"
+        }
+      },
+      "example" : {
+        "ST" : "ST",
+        "Acquiring Institution" : "Acquiring Institution",
+        "Closing Date" : "Closing Date",
+        "City" : "City",
+        "CERT" : 5,
+        "Bank Name" : "Bank Name",
+        "Updated Date" : "Updated Date"
+      }
+    }
+  }
+}
